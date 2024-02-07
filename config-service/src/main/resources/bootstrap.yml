@@ -6,11 +6,7 @@ spring:
     config:
       server:
         git:
-<<<<<<< HEAD
           uri: https://github.com/chungungo/ms-course-youtube.git
-=======
-          uri: https://github.com/digitallab-academy/ms-course-youtube.git
->>>>>>> 57ff53b9224c304ee6f2bf3174dd8eea5fe5ed64
           searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
